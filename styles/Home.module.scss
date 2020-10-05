@@ -5,11 +5,10 @@
     position: relative;
     .intro {
       width: 50%;
-      left: 0;
-      bottom: 351px;
+      bottom: 0;
       position: absolute;
       background-color: $light;
-      padding: $unit * 3.75;
+      padding: $unit $unit * 3.75;
       h1 {
         margin: 0 0 $unit;
       }
