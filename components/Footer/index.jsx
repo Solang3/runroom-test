@@ -33,7 +33,7 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-      <nav>
+      <nav className={styles.navSocial}>
         <ul>
           <li>
             <Behance />

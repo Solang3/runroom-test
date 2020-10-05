@@ -31,7 +31,7 @@ const Home = () => {
             <div className="column">
               <img src="/profile.jpg" />
             </div>
-            <div className="column">
+            <div className={`${styles.about} column`}>
               <h2>Sobre mí</h2>
               <p>
                 Mi visión: esa creación, cualquiera que sea la forma que adopte, debe mejorar la

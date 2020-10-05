@@ -3,8 +3,23 @@
 .button {
   background: $primary;
   color: $light;
-
+  padding: $unit / 2.6 $unit * 1.25;
+  font-size: $unit / 2;
+  line-height: $unit * .875;
+  text-transform: uppercase;
+  border-radius: 2px;
+  min-width: $unit * 7.5;
+  margin: $unit / 2 0 $unit;
+  display: inline-block;
+  text-align: center;
   &--hollow {
-
+    background: $light;
+    color: $primary;
+    border: 1px solid $primary;
+  }
+}
+@media (min-width: $screen-sm-min) {
+  .button {
+    margin: $unit 0;
   }
 }

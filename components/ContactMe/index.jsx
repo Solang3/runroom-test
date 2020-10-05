@@ -10,7 +10,7 @@ const ContactMe = () => {
       <div className="grid">
         <div className="column display">Te interesa hacer un proyecto juntxs?</div>
         <div className="column">
-          <a className="button button--hollow" onClick={toggleContactModal}>
+          <a className="button button--hollow f-r" onClick={toggleContactModal}>
             Contáctame
           </a>
         </div>

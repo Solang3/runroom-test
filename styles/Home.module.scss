@@ -1,0 +1,28 @@
+@import "./variables";
+
+@media (min-width: $screen-sm-min) {
+  .billboard {
+    position: relative;
+    .intro {
+      width: 50%;
+      left: 0;
+      bottom: 351px;
+      position: absolute;
+      background-color: $light;
+      padding: $unit * 3.75;
+      h1 {
+        margin: 0 0 $unit;
+      }
+    }
+  }
+  .about {
+    padding: $unit * 3.75;
+    p {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+    }
+  }
+}

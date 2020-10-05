@@ -1,3 +1,11 @@
-.grid {}
+@import "./variables";
 
-.column {}
+
+@media (min-width: $screen-sm-min) {
+  .grid {
+    display: flex;
+  }
+  .column {
+    width: 50%;
+  }
+}

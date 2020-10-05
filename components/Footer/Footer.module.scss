@@ -3,8 +3,41 @@
 .footer {
   background: $dark;
   color: $light;
+  padding: $unit * 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .logo {
+    path { fill: $light; }
+  }
+
+  .navList li {
+    margin: $unit * 1.25;
+  }
+
+  .navSocial ul   {
+    margin-top: $unit * 3;
+    li {
+      margin: $unit $unit * 1.25;
+      display: inline-block;
+    }
+  }
 }
 
-.logo {
-  path { fill: $light; }
+@media (min-width: $screen-sm-min) {
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    .navList, .navSocial ul {
+      margin-top: 0;
+      li {
+        display: inline-block;
+      }
+    }
+    .navSocial {
+      position: absolute;
+      right: 0;
+    }
+  }
 }
