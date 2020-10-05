@@ -5,6 +5,9 @@
   .grid {
     display: flex;
   }
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
   .column {
     width: 50%;
   }

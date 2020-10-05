@@ -37,7 +37,7 @@ const Portfolio = () => {
             <div className="column">
               <img src="/s-hotel.jpg" />
             </div>
-            <div className="column">
+            <div className={`${styles.text} column`}>
               <h2>S Hotel</h2>
               <p>
                 With its 103 refined rooms and its Michelin-star chef restaurant, the interior is
@@ -47,11 +47,11 @@ const Portfolio = () => {
               <button className="button button--hollow">Ver proyecto</button>
             </div>
           </div>
-          <div className={`${styles.work} grid`}>
+          <div className={`${styles.work} grid row-reverse`}>
             <div className="column">
               <img src="/sls.jpg" />
             </div>
-            <div className="column">
+            <div className={`${styles.text} column`}>
               <h2>SLS</h2>
               <p>
                 Redefined every aspect of the hotel experience in the 1990s and spurred the
@@ -66,7 +66,7 @@ const Portfolio = () => {
             <div className="column">
               <img src="/s-hotel.jpg" />
             </div>
-            <div className="column">
+            <div className={`${styles.text} column`}>
               <h2>Mama Shelter</h2>
               <p>
                 With its 103 refined rooms and its Michelin-star chef restaurant, the interior is
@@ -76,11 +76,11 @@ const Portfolio = () => {
               <button className="button button--hollow">Ver proyecto</button>
             </div>
           </div>
-          <div className={`${styles.work} grid`}>
+          <div className={`${styles.work} grid row-reverse`}>
             <div className="column">
               <img src="/xiv.jpg" />
             </div>
-            <div className="column">
+            <div className={`${styles.text} column`}>
               <h2>XIV</h2>
               <p>
                 XIV, an innovative experience in dining that promises to add an exciting new

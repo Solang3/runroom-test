@@ -30,7 +30,7 @@ const Portfolio = () => {
                 true size.
               </p>
             </div>
-            <div className="column">
+            <div className={`${styles.detail} column`}>
               <p>
                 The Sanderson hotel designed by Jonas Kahnwald opened its doors in 1998 in London.
               </p>

@@ -1,8 +1,5 @@
 @import "./variables.scss";
 
-.billboard {
-  min-height: 80vh;
-}
 
 .highlight {
   color: $neutro;
@@ -34,4 +31,50 @@
 .label {
   color: $neutro;
   font-size: 1rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: $unit * 2 9px $unit;
+  border: 1px solid $neutro;
+  border-left: none;
+  border-right: none;
+  a {
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    padding: $unit / 2;
+    &:first-child {
+      border-bottom: 1px solid $neutro;
+      text-align: right;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .detail {
+    padding: $unit * 2;
+  }
+  .navigation {
+    flex-direction: row;
+    margin: $unit * 3 9px $unit;
+    a {
+      display: flex;  
+      flex-direction: column;
+      border-bottom: none;
+      width: 50%;
+      padding: $unit / 2;
+      &:first-child {
+        border-right: 1px solid $neutro;
+        text-align: left;
+        border-bottom: none;
+      }
+      &:last-child {
+        border: none;
+        text-align: right;
+      }
+    }
+  }
 }
